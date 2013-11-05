@@ -1,0 +1,9 @@
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\bin\Debug\MvcMongoDb.Data.dll
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\bin\Debug\MvcMongoDb.Data.pdb
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\bin\Debug\MongoDB.Bson.dll
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\bin\Debug\MongoDB.Driver.dll
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\bin\Debug\MongoDB.Bson.xml
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\bin\Debug\MongoDB.Driver.xml
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\obj\Debug\MvcMongoDb.Data.csprojResolveAssemblyReference.cache
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\obj\Debug\MvcMongoDb.Data.dll
+c:\users\ertugrul\documents\visual studio 2013\Projects\MvcMongoDb\MvcMongoDb.Data\obj\Debug\MvcMongoDb.Data.pdb

@@ -1,0 +1,59 @@
+﻿@model MvcMongoDb.Data.Entities.Game
+
+@{
+    ViewBag.Title = "Create a new game";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Create a new game</h2>
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Game</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Name)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Name)
+            @Html.ValidationMessageFor(model => model.Name)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.ReleaseDate)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.ReleaseDate)
+            @Html.ValidationMessageFor(model => model.ReleaseDate)
+        </div>
+
+        @{
+    var categories = new List<SelectListItem> {
+                new SelectListItem { Text = "remake", Value = "remake" },
+                new SelectListItem { Text = "space", Value = "space" },
+                new SelectListItem { Text = "shooter", Value = "shooter" }
+            };
+        }
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Categories)
+        </div>
+        <div class="editor-field">
+            @Html.ListBoxFor(model => model.Categories, categories)
+            @Html.ValidationMessageFor(model => model.ReleaseDate)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMongoDb", "MvcMongoDb\MvcMongoDb.csproj", "{C2437753-2BE3-48A1-B0CC-67F0911AA758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcMongoDb.Data", "MvcMongoDb.Data\MvcMongoDb.Data.csproj", "{2D3628B6-D414-408E-822F-4376C25ED639}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2437753-2BE3-48A1-B0CC-67F0911AA758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2437753-2BE3-48A1-B0CC-67F0911AA758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2437753-2BE3-48A1-B0CC-67F0911AA758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2437753-2BE3-48A1-B0CC-67F0911AA758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D3628B6-D414-408E-822F-4376C25ED639}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D3628B6-D414-408E-822F-4376C25ED639}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D3628B6-D414-408E-822F-4376C25ED639}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D3628B6-D414-408E-822F-4376C25ED639}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
